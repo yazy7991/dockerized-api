@@ -1,0 +1,6 @@
+# The project dependencies
+node_modules/
+
+# The project environment file(s)
+.env
+.env.*
