@@ -1,6 +1,6 @@
 //Standardized response function
 
-import { createUserService, deleteUserService, getAllUsersService, getUserByIdService, updateUserService } from "../models/userModel";
+import { createUserService, deleteUserService, getAllUsersService, getUserByIdService, updateUserService } from "../models/userModel.js";
 
 const handleResponse = (res,status,message,data=null)=>{
     res.status(status).json({
