@@ -8,7 +8,7 @@ const handleResponse = (res,status,message,data=null)=>{
     });
 };
 
-export const creatUser = async(req,res,next) =>{
+export const createUser = async(req,res,next) =>{
     const {name,email} = req.body;
 
     try{
